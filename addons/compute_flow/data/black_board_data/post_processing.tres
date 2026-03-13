@@ -17,6 +17,6 @@ type_index = {
 
 [resource]
 script = ExtResource("1_qk12c")
-glsl_file = "res://案例/post_processing.glsl"
+glsl_file = "D:/godot插件/compute-flow/examples/post_processing/post_processing.glsl"
 global_size = Vector3i(1280, 720, 1)
 push_constant = SubResource("Resource_xetyw")
