@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://r8er472dlcrt" path="res://examples/post_processing/post_processing.gd" id="1_p3gr1"]
 [ext_resource type="Script" uid="uid://dqr3qkdjyocnk" path="res://addons/compute_flow/compute_shaders/compute_flow.gd" id="1_sk4q5"]
+[ext_resource type="Texture2D" uid="uid://fiu1he1x337o" path="res://icon.svg" id="2_n70jk"]
 [ext_resource type="Script" uid="uid://bhvcnu8j1dddl" path="res://addons/compute_flow/compute_shaders/set/compute_set.gd" id="3_p3gr1"]
 [ext_resource type="Resource" uid="uid://b34csvpa0nm2a" path="res://addons/compute_flow/data/black_board_data/post_processing.tres" id="4_p3gr1"]
 [ext_resource type="Script" uid="uid://drt56l5axu0r2" path="res://addons/compute_flow/compute_shaders/uniforms/image/sampler2D_uniform.gd" id="4_wv33b"]
@@ -20,10 +21,9 @@ handle_input_locally = false
 size = Vector2i(1280, 720)
 render_target_update_mode = 4
 
-[node name="CSGBox3D" type="CSGBox3D" parent="SubViewportContainer/SubViewport" unique_id=290672397]
-
-[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SubViewport/CSGBox3D" unique_id=1926753850]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.82114697, 1.6749123)
+[node name="Icon" type="Sprite2D" parent="SubViewportContainer/SubViewport" unique_id=163112752]
+position = Vector2(554, 145)
+texture = ExtResource("2_n70jk")
 
 [node name="ComputeFlow" type="Node" parent="." unique_id=450183058]
 script = ExtResource("1_sk4q5")
