@@ -19,7 +19,6 @@ class_name UniformBuffer
 
 @export_category("debug")
 ## debug 模式,会打印更多信息
-@export var debug:= false
 @export var restart := false:
 	set(value):
 		restart = value

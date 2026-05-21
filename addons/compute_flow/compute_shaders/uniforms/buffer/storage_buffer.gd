@@ -20,7 +20,7 @@ var buffer_byte := PackedByteArray()
 var data_size := 0
 ## debug 模式,会打印更多信息
 @export_category("debug")
-@export var debug:= false
+
 
 #<=============================公有方法=============================>##
 ## 设置元素数量
